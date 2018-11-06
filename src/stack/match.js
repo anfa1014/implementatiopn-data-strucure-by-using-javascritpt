@@ -4,14 +4,14 @@
 const Stack = require('./index');
 
 function mactching (str) {
-    let arr = str.split('');
     let stack = new Stack;
     let rules = {
         '(': ')',
         '[': ']'
     };
     
-    let output = arr
+    let output = str
+                .split('')
                 .some( item => {
                     if (item === '[' || item == '(') stack.push(item); 
                     else {
