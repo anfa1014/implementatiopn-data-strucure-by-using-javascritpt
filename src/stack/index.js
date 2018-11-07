@@ -17,7 +17,7 @@ class Stack {
 
     getElement () {
         let length = this.arr.length;
-        return this.arr[length-1];
+        return length == 0 ? undefined : this.arr[length-1];
     }
 }  
 
