@@ -68,9 +68,7 @@ function fn2 (exp) {
                     }
                     break;
                 default: 
-                    while ( stack.getLength() > 0 
-                        && operators[stack.getElement()] != '(' 
-                        && operators[stack.getElement()] > operators[ch]) {
+                    while (operators[stack.getElement()] > operators[ch]) {
                         output += stack.pop();
                     }
                     if (ch != '#') stack.push(ch);
