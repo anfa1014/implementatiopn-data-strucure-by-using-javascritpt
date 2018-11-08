@@ -17,8 +17,7 @@ function fn (s, t) {
         } else {
             let k = i +1,
                 j = 1;
-            while ( j < length - 1
-                    && s[k] == t[j]) {
+            while ( j < length - 1 && s[k] == t[j]) {
                 k++;j++;        
             }
             if (j == length -1) {
