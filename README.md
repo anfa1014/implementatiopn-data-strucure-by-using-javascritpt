@@ -8,5 +8,5 @@
     - 实现递归
 - 串匹配
     - [简单算法](./src/string/ordinary.js)
-    - 首尾匹配算法
+    - [首尾匹配算法](./src/string/headTail.js)
     - KMP算法
