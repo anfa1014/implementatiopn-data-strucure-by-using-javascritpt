@@ -7,6 +7,6 @@
     - [表达式求值](./src/stack/exp.js)
     - 实现递归
 - 串匹配
-    - 简单算法
+    - [简单算法](./src/string/ordinary.js)
     - 首尾匹配算法
     - KMP算法
