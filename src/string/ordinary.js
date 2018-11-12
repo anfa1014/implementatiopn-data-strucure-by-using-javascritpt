@@ -15,6 +15,6 @@ function fn (s,t) {
     return j >= t.length ? i-j : -1; 
 }
 
-console.log(fn('1234234','343')) // => -1
-console.log(fn('1234234','342')) // => 2
+console.log(fn('ababababca','ac')) // => -1
+console.log(fn('ababababca','abababca')) // => 2
  
