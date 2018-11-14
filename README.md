@@ -10,3 +10,13 @@
     - [简单算法](./src/string/ordinary.js)
     - [首尾匹配算法](./src/string/headTail.js)
     - [KMP算法](./src/string/kmp.js)
+- 二叉树
+    - 非递归遍历
+    - 统计二叉树叶子节点（先序遍历）
+    - 二叉树深度（后序遍历）
+    - 建立二叉树
+- 图
+    - DFS
+    - HFS
+    - 最小生成树
+    - 最短路径
